@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=code-server
 #SBATCH --time=<<time>>
-#SBATCH --output=code_server/code_server_%N.log
+#SBATCH --output=<<log>>
 #SBATCH --mem=<<memory>>
 #SBATCH --cpus-per-task=<<cpus>>
 
