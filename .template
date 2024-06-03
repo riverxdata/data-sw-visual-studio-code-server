@@ -12,4 +12,4 @@ echo "Starting code-server in Slurm"
 echo "Password to access VSCode:" $PASSWORD
 echo "********************************************************************"
 PASSWORD=$PASSWORD code-server --bind-addr 0.0.0.0:$PORT --auth password --disable-telemetry
-echo "{\"address\": \"$(ip a | grep 192.168 | awk '{print $2}')\", \"port\": ${PORT}}" > <<job>>/access.json
+echo "{\"address\": \"$(hostname)", \"port\": ${PORT}}" > <<job>>/access.json
