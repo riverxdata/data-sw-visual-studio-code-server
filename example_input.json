@@ -1,8 +1,0 @@
-{
-    "tools": "code_server",
-    "params": {
-        "cpus":1,
-        "memory":"1G",
-
-    }
-}
